@@ -1,0 +1,3 @@
+swatom(1, 1, "pred(a,b,c)")
+swatom(2, 2, "right(x,y)")
+swatom(3, 3, "fixed(p,q)")
