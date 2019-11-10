@@ -1,0 +1,8 @@
++admDrug("28-Mar-18", "Emdad", "Ibuprofen", "Rafi", 80)
++admDrug("12-Feb-18", "Tom", "Plasmin", "Anika", 2)
++admDrug("14-Feb-18", "Tom", "Santonin", "Ruby", 1)
++admDrug("16-Dec-17", "David", "Santonin", "Harry", 15)
+
++bills("28-Mar-18", "Cardiologist", "GeneralSale", "Rafi", 200)
++bills("12-Feb-18", "Pediatrician", "GeneralSale", "Anika", 150)
++bills("14-Feb-18", "Pediatrician", "Restricted", "Ruby", 60)

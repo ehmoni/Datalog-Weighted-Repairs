@@ -1,0 +1,52 @@
++person("Emdad")
++person("Tina") 
++person("Tom")
++person("David")
++person("Ali")
+
++specialty("Cardiologist")
++specialty("Pediatrician")
++specialty("Clinical")
+
++contract("FullTime")
++contract("Intern")
+
++division("Doctor")
++division("Nurse")
+#all_persons
+
++personSpec("Emdad", "Cardiologist")
++personSpec("Tina", "Cardiologist")
++personSpec("Tom", "Pediatrician")
++personSpec("David", "Clinical")
++personSpec("Ali", "Clinical")
+
++personContract("Emdad","FullTime")
++personContract("Tina","FullTime")
++personContract("Tom","Intern")
++personContract("David","Intern")
++personContract("Ali","Intern")
+
++specDiv("Cardiologist", "Doctor")
++specDiv("Pediatrician", "Doctor")
++specDiv("Clinical", "Nurse")
+
+
++drug("Ibuprofen")
++drug("Plasmin")
++drug("Carprofen") 
++drug("Histamine") 
++drug("Santonin")
++drug("Meclozine")
+
++drtype("GeneralSale") 
++drtype("Prescription") 
++drtype("Restricted")
+#all_drugs
+
++drugType("Ibuprofen", "GeneralSale")
++drugType("Plasmin", "GeneralSale")
++drugType("Carprofen", "Prescription")
++drugType("Histamine", "Prescription")
++drugType("Santonin", "Restricted")
++drugType("Meclozine", "Restricted")
